@@ -33,24 +33,25 @@
 3. Выполнить команду:
 
 Создаём виртуальное окружение внутри папки проекта.
-Далее команды для MacOS (для windows инуструкция [есть вот тут](https://realpython.com/python-virtual-environments-a-primer/#create-it))
+Далее команды для Windows (для macOS инуструкция [есть вот тут](https://realpython.com/python-virtual-environments-a-primer/#create-it))
 
 ``` markdown
-python3 -m venv venv
+py -m venv venv\
 ```
 
 ``` markdown
-source venv/bin/activate
+venv\Scripts\activate
+
 ```
 
 4. Устанавливаем библиотеки
 
 ``` markdown
-python3 -m pip install requests
+python -m pip install requests
 ```
 
 ``` markdown
-python3 -m pip install pytest
+python -m pip install pytest
 ```
 
 Запускаем
@@ -63,4 +64,4 @@ pytest tests/test_pokemon.py
 
 ## Автор
 
-Герман Дольников ([@dolnikov](https://t.me/dolnikov))
+Евгений Бескровный ([@GBloodless](https://t.me/GBloodless))
